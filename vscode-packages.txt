@@ -1,0 +1,5 @@
+dbaeumer.vscode-eslint
+eamodio.gitlens
+EditorConfig.EditorConfig
+emmanuelbeziat.vscode-great-icons
+wayou.vscode-todo-highlight
