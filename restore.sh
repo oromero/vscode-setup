@@ -1,5 +1,5 @@
 #!/bin/sh
-USER_SETTINGS_PATH=/Users/orlando/Library/Application\ Support/Code/User/
+USER_SETTINGS_PATH=~/Library/Application\ Support/Code/User/
 
 while read -r LINE; do
     code --install-extension $LINE
