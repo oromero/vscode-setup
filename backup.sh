@@ -1,5 +1,6 @@
 #!/bin/sh
-VSCODE_SETTINGS_FILENAME=/Users/orlando/Library/Application\ Support/Code/User/settings.json
+USER_SETTINGS_PATH=/Users/orlando/Library/Application\ Support/Code/User/
 
 code --list-extensions > vscode-packages.txt
-cp "$VSCODE_SETTINGS_FILENAME" .
+cp "${USER_SETTINGS_PATH}settings.json" .
+cp "${USER_SETTINGS_PATH}snippets/javascript.json" .

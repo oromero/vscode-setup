@@ -1,0 +1,81 @@
+{
+	"Require": {
+		"prefix": "req",
+		"body": [
+			"require('$1');$2"
+		],
+		"description": "Require module"
+	},
+	"Before": {
+		"prefix": "bef",
+		"body": [
+			"before(() => {",
+			"\t$1",
+			"});$2"
+		],
+		"description": "Before"
+	},
+	"Before All": {
+		"prefix": "befa",
+		"body": [
+			"beforeAll(() => {",
+			"\t$1",
+			"});$2"
+		],
+		"description": "Before all"
+	},
+	"Before Each": {
+		"prefix": "befe",
+		"body": [
+			"beforeEach(() => {",
+			"\t$1",
+			"});$2"
+		],
+		"description": "Before each"
+	},
+	"After": {
+		"prefix": "aft",
+		"body": [
+			"after(() => {",
+			"\t$1",
+			"});$2"
+		],
+		"description": "After"
+	},
+	"After all": {
+		"prefix": "afta",
+		"body": [
+			"afterAll(() => {",
+			"\t$1",
+			"});$2"
+		],
+		"description": "After all"
+	},
+	"After each": {
+		"prefix": "afte",
+		"body": [
+			"afterEach(() => {",
+			"\t$1",
+			"});$2"
+		],
+		"description": "After each"
+	},
+	"Describe": {
+		"prefix": "des",
+		"body": [
+			"describe('${1:description}', () => {",
+			"\t$2",
+			"});$3"
+		],
+		"description": "Describe"
+	},
+	"It": {
+		"prefix": "it",
+		"body": [
+			"it('${1:description}', () => {",
+			"\t$2",
+			"});$3"
+		],
+		"description": "After each"
+	}
+}

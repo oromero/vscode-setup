@@ -1,8 +1,9 @@
 #!/bin/sh
-VSCODE_SETTINGS_FILENAME=/Users/orlando/Library/Application\ Support/Code/User/settings.json
+USER_SETTINGS_PATH=/Users/orlando/Library/Application\ Support/Code/User/
 
 while read -r LINE; do
     code --install-extension $LINE
 done < vscode-packages.txt
 
-cp settings.json "$VSCODE_SETTINGS_FILENAME"
+cp settings.json "${USER_SETTINGS_PATH}settings.json"
+cp javascript.json "${USER_SETTINGS_PATH}snippets/javascript.json"
