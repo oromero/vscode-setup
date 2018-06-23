@@ -1,0 +1,9 @@
+{
+    "editor.fontSize": 14,
+    "window.zoomLevel": 1,
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "workbench.colorTheme": "Visual Studio Dark",
+    "explorer.openEditors.visible": 0
+}
