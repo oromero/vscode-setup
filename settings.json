@@ -4,6 +4,7 @@
     "gitlens.advanced.messages": {
         "suppressShowKeyBindingsNotice": true
     },
-    "workbench.colorTheme": "Visual Studio Dark",
-    "explorer.openEditors.visible": 0
+    "explorer.openEditors.visible": 0,
+    "editor.rulers": [80],
+    "editor.minimap.enabled": false
 }
