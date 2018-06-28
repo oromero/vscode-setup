@@ -4,5 +4,6 @@ EditorConfig.EditorConfig
 emmanuelbeziat.vscode-great-icons
 esbenp.prettier-vscode
 ms-python.python
+vscodevim.vim
 WallabyJs.quokka-vscode
 wayou.vscode-todo-highlight
