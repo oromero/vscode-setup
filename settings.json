@@ -6,5 +6,7 @@
     },
     "explorer.openEditors.visible": 0,
     "editor.rulers": [80],
-    "editor.minimap.enabled": false
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": true,
+    "workbench.colorTheme": "Default High Contrast"
 }
