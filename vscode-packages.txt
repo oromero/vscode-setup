@@ -5,8 +5,14 @@ eamodio.gitlens
 EditorConfig.EditorConfig
 emmanuelbeziat.vscode-great-icons
 esbenp.prettier-vscode
+glen-84.sass-lint
 ms-python.python
 PeterJausovec.vscode-docker
+redhat.java
 redhat.vscode-yaml
+vscjava.vscode-java-debug
+vscjava.vscode-java-pack
+vscjava.vscode-java-test
+vscjava.vscode-maven
 WallabyJs.quokka-vscode
 wayou.vscode-todo-highlight
