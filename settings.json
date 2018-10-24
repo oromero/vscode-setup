@@ -8,5 +8,8 @@
     "editor.rulers": [80],
     "editor.minimap.enabled": false,
     "breadcrumbs.enabled": true,
-    "workbench.colorTheme": "Default High Contrast"
+    "workbench.colorTheme": "Default High Contrast",
+    "files.associations": {
+        "*.jdp": "groovy"
+    }
 }
